@@ -8,6 +8,22 @@ pip
 ```
 pip install -r requirement.txt
 ```
+
+### 请注意，需要编辑库文件位置如： vim /Users/admin/venv/py37/lib/python3.7/site-packages/google_trans_new/google_trans_new.py
+
+```
+第151行
+
+原来：
+response = (decoded_line + ']')
+
+修改为：
+response = decoded_line 
+
+
+```
+
+
 ### 启动：
 python MutiLanGen.py [os:ios,and,h5] path/to/the/xx.bundle
 ```

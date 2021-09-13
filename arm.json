@@ -1,5 +1,7 @@
 {
     "zh":{
-        "lan":"Sdf"
+        "personSet_score_title":"给个评分吧",
+        "personSet_score_bad":"用的不爽，我要吐槽",
+        "personSet_score_good":"用的不错鼓励一下"
     }
 }
